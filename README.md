@@ -1,7 +1,7 @@
 # SDN Topology Change Detector
-
-## Problem Statement
 An SDN-based Topology Change Detector using Mininet and Ryu OpenFlow controller. The controller dynamically monitors the network for switch joins/leaves, link additions/deletions, and port changes, logging all events in real time. It also functions as a learning switch, installing OpenFlow 1.3 flow rules reactively.
+
+Built as part of the CN Mini Project.
 
 ## Topology
 Linear chain of 3 switches (s1-s2-s3), each with 2 hosts attached (h1-h6).
